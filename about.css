@@ -1,0 +1,102 @@
+
+.heading h1{
+text-align: center;
+/* padding:2px; */
+padding-top: 5%;
+letter-spacing: 2px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    display: inline;
+
+}
+
+li{
+    float: right;
+    padding: 10px;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14;
+}
+
+li a:hover{
+    background-color: aquamarine;
+}
+
+.navbar{
+  height:80px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 20px;
+    transition: .4s;
+}
+
+
+.bann{
+    width: 90%;
+    height: 520px; ;
+    /* background: #333;  */
+    margin: 90px auto;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+}
+
+.bann div{
+    width: 30%;
+    height: 50%;
+    align-self: center;
+    text-align: justify;
+    padding: 2%;
+    letter-spacing: 2px;
+
+}
+
+.bann div p{
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bann video{
+    width: 70%;
+}
+
+
+
+
+video {
+   display: block;
+    margin: auto; 
+  }
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+     padding: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1; 
+  }
